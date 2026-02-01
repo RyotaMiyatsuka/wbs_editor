@@ -13,7 +13,7 @@ def main():
 
 
 if __name__ == "__main__":
-    sample_data_dirpath = Path("/home/ryotamiyatsuka/dev/wbs_editor/sample_data")
+    sample_data_dirpath = Path("./sample_data")
     calender_list = [
         Calender(**row)
         for row in pl.read_csv(sample_data_dirpath / "calendar.csv").iter_rows(
