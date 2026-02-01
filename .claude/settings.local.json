@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(tree /workspace/app/frontend/src/app/models)"
+    ],
+    "deny": [
+      "Bash(rm:*)"
+    ],
+    "ask": []
+  }
+}

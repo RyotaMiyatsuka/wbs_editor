@@ -1,0 +1,11 @@
+[project]
+name = "wbs-editor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "polars>=1.37.1",
+    "pydantic>=2.12.5",
+    "ty>=0.0.14",
+]
