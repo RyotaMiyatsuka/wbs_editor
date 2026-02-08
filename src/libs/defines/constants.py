@@ -1,1 +1,2 @@
 DATE_FORMAT = "%Y-%m-%d"
+HOURS_PER_DAY = 8

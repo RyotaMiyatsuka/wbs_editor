@@ -198,6 +198,7 @@ class WbsService:
             priority=task.priority,
             assignee=task.assignee,
             deadline_date=task.deadline_date,
+            estimated_days=task.estimated_days,
             estimated_hours=task.estimated_hours,
             predecessor_task_ids=task.predecessor_task_ids,
             start_date=task_start_date,
